@@ -53,3 +53,8 @@ these options then repeat themselves
 	puppeteer accept.
 # if puppeteer won the war to liberate country.
 	liberated country become puppet of puppeteer if puppeteer is major or great power
+
+== Evolution - Annexation of Puppet  '''TODO'''  ==
+
+You may annex a puppet nation peacefully if the puppet goes into bankruptcy. The puppet gets the option to accept or reject the annexation. If the puppet rejects the annexation proposal they will in effect declare independence - giving besides the become_independent casus belli, the option for outright annexation of minor puppet states and acquire cores. Puppets with in a cultural union, will accept annexation.
+If a puppet has a different government type than yours, you may declare war to reinstate your government type. 
