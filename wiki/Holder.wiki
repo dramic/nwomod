@@ -1,0 +1,55 @@
+== Devolution '''TODO'''  ==
+
+Devolution is the process of a county dissolving into several smaller entities, based on a regions with a non primary culture as 
+majority or in special cases historic "cores". 
+
+=== Start: Unitarian State ===
+The starting point for a devolutionary process is crime. 
+Steps of devolution
+# province has a minority pop with own core, and there is a sectarian divied with a dominating culture by numbers or policy.
+# increase level on disconnect based on unemployment, militancy. Reduced risk by reform promote_minoroties.
+# province gets timed demand_autonomy. Gov may deny or accept - partial (e.g. only province or all with core in country). 
+	if gov. deny province gets denied_autonomy
+	if gov. accept province autonomy - create puppet or if pupet exists transfer sovereignty to puppet state. If state is independent, gov. have to deny autonomy.
+# province has denied_autonomy will triggered by crimes get insurrection_modifier.
+	Country gets insatiability interest penalty level1.
+	gov. can respond with policing
+	gov. can respond with minority_supression
+	gov. can accept prov autonomy.**)
+# province has insurrection_modifier, remove insurrection_modifier add violent_revolt_modifier.
+	Country gets insatiability interest penalty level2.
+	gov. can respond with (continued) minority_supression 
+	gov. can accept prov autonomy.**)
+# province has violent_revolt_modifier, MMT*) remove violent_revolt_modifier add sectarian_breakdown
+	Country gets insatiability interest penalty level3 and militancy
+	gov. can respond with continued minority_supression 
+	gov. can respond with sectarian_wall and continued minority_supression. Sectarian wall costs in admin efficiency, gives suppression points.
+	gov. can accept prov autonomy.**)
+these options then repeat themselves
+# if a province with sectarian_breakdown ever not is_controlled by owner, we get civilwar_modifier.
+# province with civilwar_modifier and controlled by owner, remove civilwar_modifier and add sectarian_breakdown
+	Country gets insatiability interest penalty level4 and tax revenue penalty.
+	gov. can respond with minority_supression
+	gov. can respond with sectarian_wall and minority_supression
+	gov. can accept prov autonomy. -> country gets forced_autonomy, i.e.will try and become independent.
+
+	x) ethnic_cleancing, minority_supression increase emigration from province.
+	xx) ethnic_cleancing causes bad_boy.
+	
+	minority_supression is a province modifer, with time-out. On timeout read minority_supression if province has sectarian_wall.
+	
+=== Start Autonomic - Puppet ===
+
+# Increase level on disconnect based on unemployment, militancy, and (forced_autonomy and (is_democracy or dictatorship_party_election)). Reduced risk by reform promote_minoroties or capital_province majority pop is_primary of puppeteer Y.
+# Country gets timed modifier demand_independance.
+	if puppeteer. deny  gets denied_independance
+	if puppeteer accepts. Release puppet.
+# If puppet has denied_independance MTT y). Remove denied_independance
+	puppet gets option declare independence.
+	or puppet get option stay puppet.
+# puppet declares independence
+	puppeteer war make_puppet (if not pupeteerer in default)
+	puppeteer war release country(s). TODO how to make pupeteerer to assert iflunce in puppet.
+	puppeteer accept.
+# if puppeteer won the war to liberate country.
+	liberated country become puppet of puppeteer if puppeteer is major or great power
